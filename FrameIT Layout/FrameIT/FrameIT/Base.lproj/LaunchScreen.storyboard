@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina4_7" orientation="landscape">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="667" height="375"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" image="FrameIT-logo" translatesAutoresizingMaskIntoConstraints="NO" id="FDb-e9-JH6">
+                                <rect key="frame" x="213.5" y="42" width="240" height="240"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="240" id="Rny-TH-KvE"/>
+                                    <constraint firstAttribute="height" constant="240" id="VpE-JX-bmd"/>
+                                </constraints>
+                            </imageView>
+                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" image="FrameIT-name" translatesAutoresizingMaskIntoConstraints="NO" id="W8h-fV-yD4">
+                                <rect key="frame" x="241" y="290" width="185" height="36"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="185" id="Nx1-ea-PSh"/>
+                                    <constraint firstAttribute="height" constant="36" id="QEC-WJ-6pj"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.33740225434303284" green="0.73352932929992676" blue="0.7176520824432373" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <constraints>
+                            <constraint firstItem="W8h-fV-yD4" firstAttribute="top" secondItem="FDb-e9-JH6" secondAttribute="bottom" constant="8" id="0B8-cf-GNS"/>
+                            <constraint firstItem="W8h-fV-yD4" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="FaY-3J-vig"/>
+                            <constraint firstItem="FDb-e9-JH6" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="42" id="NGa-Xy-79x"/>
+                            <constraint firstItem="FDb-e9-JH6" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="W5R-hw-uZo"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="52" y="374.66266866566718"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="FrameIT-logo" width="512" height="512"/>
+        <image name="FrameIT-name" width="564" height="95"/>
+    </resources>
+</document>
